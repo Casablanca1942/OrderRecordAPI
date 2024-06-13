@@ -62,7 +62,7 @@ app.MapPost("/OrderRecord", (OrderRecord orderRecord, OrderRecordContext context
 {
     context.OrderRecord.Add(orderRecord);
     context.SaveChanges();
-    return Results.Created($"/orderrecords/{orderRecord.ID}", orderRecord);
+    return Results.Created($"/OrderRecord/{orderRecord.ID}", orderRecord);
 })
 .WithName("CreateOrderRecord")
 .WithOpenApi();
