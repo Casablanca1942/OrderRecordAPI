@@ -10,7 +10,7 @@ You can test the API methods on:
 
   orderrecordapi20240612.azurewebsites.net/Swagger
 
-The future React App will interact with:
+The future React Frontend will interact with:
 
   orderrecordapi20240612.azurewebsites.net/OrderRecord
 
