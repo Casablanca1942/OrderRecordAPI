@@ -15,4 +15,4 @@ The future React Frontend will interact with:
   orderrecordapi20240612.azurewebsites.net/OrderRecord
 
 
-I am working on GitHub Actions to enable auto update...
+GitHub Actions is enabled for CI/CD.
