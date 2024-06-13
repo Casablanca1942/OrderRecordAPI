@@ -7,9 +7,11 @@ Tech stack:
 So, after a period of hardworking, it works! I added the connection string as the environment variable in Azure App Service.
 
 You can test the API methods on:
+
 orderrecordapi20240612.azurewebsites.net/Swagger
 
 The future React App will interact with:
+
 orderrecordapi20240612.azurewebsites.net/OrderRecord
 
 
