@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DotNetSQL")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+073e094c398666b2b3f91098ba763d5b0ef1e08b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7d92d1b63ece10a0fab6b439d816ba56009f5572")]
 [assembly: System.Reflection.AssemblyProductAttribute("DotNetSQL")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DotNetSQL")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

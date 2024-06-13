@@ -25,11 +25,18 @@ builder.Services.AddDbContext<OrderRecordContext>(options =>
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
+
+/* For demo purposes, we are enabling Swagger in all environments.
+   In a production application, you may want to restrict this to only development environments.
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
     app.UseSwaggerUI();
 }
+*/
+
+app.UseSwagger();
+app.UseSwaggerUI();
 
 app.UseHttpsRedirection();
 
