@@ -12,11 +12,11 @@ var connection = String.Empty;
 if (builder.Environment.IsDevelopment())
 {
     builder.Configuration.AddEnvironmentVariables().AddJsonFile("appsettings.Development.json");
-    connection = builder.Configuration.GetConnectionString("AZURE_SQL_CONNECTIONSTRING");
+    connection = builder.Configuration.GetConnectionString("SQLAZURECONNSTR_AZURE_SQL_CONNECTIONSTRING");
 }
 else
 {
-    connection = Environment.GetEnvironmentVariable("AZURE_SQL_CONNECTIONSTRING");
+    connection = Environment.GetEnvironmentVariable("SQLAZURECONNSTR_AZURE_SQL_CONNECTIONSTRING");
 }
 
 builder.Services.AddDbContext<OrderRecordContext>(options =>
@@ -44,7 +44,7 @@ app.MapGet("/OrderRecord", (OrderRecordContext context) =>
 .WithOpenApi();
 
 // GET {id}
-app.MapGet("/orderrecords/{id}", (int id, OrderRecordContext context) =>
+app.MapGet("/OrderRecord/{id}", (int id, OrderRecordContext context) =>
 {
     var orderRecord = context.OrderRecord.Find(id);
     if (orderRecord == null)
@@ -58,7 +58,7 @@ app.MapGet("/orderrecords/{id}", (int id, OrderRecordContext context) =>
 .WithOpenApi();
 
 // POST
-app.MapPost("/orderrecords", (OrderRecord orderRecord, OrderRecordContext context) =>
+app.MapPost("/OrderRecord", (OrderRecord orderRecord, OrderRecordContext context) =>
 {
     context.OrderRecord.Add(orderRecord);
     context.SaveChanges();
@@ -68,7 +68,7 @@ app.MapPost("/orderrecords", (OrderRecord orderRecord, OrderRecordContext contex
 .WithOpenApi();
 
 // PUT
-app.MapPut("/orderrecords/{id}", (int id, OrderRecord inputOrderRecord, OrderRecordContext context) =>
+app.MapPut("/OrderRecord/{id}", (int id, OrderRecord inputOrderRecord, OrderRecordContext context) =>
 {
     var orderRecord = context.OrderRecord.Find(id);
     if (orderRecord == null)
@@ -87,7 +87,7 @@ app.MapPut("/orderrecords/{id}", (int id, OrderRecord inputOrderRecord, OrderRec
 .WithOpenApi();
 
 // DELETE
-app.MapDelete("/orderrecords/{id}", (int id, OrderRecordContext context) =>
+app.MapDelete("/OrderRecord/{id}", (int id, OrderRecordContext context) =>
 {
     var orderRecord = context.OrderRecord.Find(id);
     if (orderRecord == null)

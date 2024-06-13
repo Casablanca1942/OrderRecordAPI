@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Projects\\DotNetSQL\\DotNetSQL.csproj": {}
+    "C:\\Projects\\MSA_2024\\OrderRecordAPI\\DotNetSQL.csproj": {}
   },
   "projects": {
-    "C:\\Projects\\DotNetSQL\\DotNetSQL.csproj": {
+    "C:\\Projects\\MSA_2024\\OrderRecordAPI\\DotNetSQL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projects\\DotNetSQL\\DotNetSQL.csproj",
+        "projectUniqueName": "C:\\Projects\\MSA_2024\\OrderRecordAPI\\DotNetSQL.csproj",
         "projectName": "DotNetSQL",
-        "projectPath": "C:\\Projects\\DotNetSQL\\DotNetSQL.csproj",
+        "projectPath": "C:\\Projects\\MSA_2024\\OrderRecordAPI\\DotNetSQL.csproj",
         "packagesPath": "C:\\Users\\KanXi\\.nuget\\packages\\",
-        "outputPath": "C:\\Projects\\DotNetSQL\\obj\\",
+        "outputPath": "C:\\Projects\\MSA_2024\\OrderRecordAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\KanXi\\AppData\\Roaming\\NuGet\\NuGet.Config",

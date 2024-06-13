@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "6CosLAfs/+EsZeg91VCxFMrWPvB09ABf3+Te0MrONuoceTS6q1CvYoiDMCJgQm1CLoNmUQup7co9mLyWwpaXTg==",
+  "dgSpecHash": "x5gt3Koasezr/5UfDPDmbmBWvyJQnwZDhBcFwmVjlUF8Gx+H12UOLPenEg9cp8dXLz6cuTDRRHnTyIozP1WtDg==",
   "success": true,
-  "projectFilePath": "C:\\Projects\\DotNetSQL\\DotNetSQL.csproj",
+  "projectFilePath": "C:\\Projects\\MSA_2024\\OrderRecordAPI\\DotNetSQL.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\KanXi\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\KanXi\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
