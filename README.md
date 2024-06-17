@@ -16,4 +16,4 @@ _Please note that **the first request will always time out with error code 500**
 1. The future React Frontend will interact with:
   > orderrecordapi20240612.azurewebsites.net/OrderRecord
 2. GitHub Actions is configured for CI/CD.
-3. I added the connection string as the environment variable in Azure App Service.
+3. I added the connection string to Azure SQL as the environment variable in Azure App Service.
