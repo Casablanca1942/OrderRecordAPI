@@ -9,8 +9,7 @@ So, after a period of hardworking, it works! I added the connection string as th
 You can test the API methods [here](orderrecordapi20240612.azurewebsites.net/Swagger).
 
 The future React Frontend will interact with:
-
-  orderrecordapi20240612.azurewebsites.net/OrderRecord
+> orderrecordapi20240612.azurewebsites.net/OrderRecord
 
 
 GitHub Actions is configured for CI/CD.
