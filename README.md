@@ -10,7 +10,7 @@
 
 You can test the API methods [here](orderrecordapi20240612.azurewebsites.net/Swagger).
 
-_Please note that the first request will always time out with error code 500 as I chose free App service plan (which is cold-start)._
+_Please note that **the first request will always time out with error code 500** as I chose free App service plan (which is cold-start)._
 
 ## Note
 1. The future React Frontend will interact with:
